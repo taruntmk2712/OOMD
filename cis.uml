@@ -2556,7 +2556,7 @@
 <XPD:OBJ name="Top" type="UMLCompositeState" guid="vZOAr6esnk66P4CGBF+ZeAAA">
 <XPD:ATTR name="Name" type="string">TOP</XPD:ATTR>
 <XPD:REF name="StateMachine">ANEeSy5D10eiZPqyPy6diwAA</XPD:REF>
-<XPD:ATTR name="#Subvertices" type="integer">6</XPD:ATTR>
+<XPD:ATTR name="#Subvertices" type="integer">7</XPD:ATTR>
 <XPD:OBJ name="Subvertices[0]" type="UMLCompositeState" guid="5pay0ydWHEGBF49HuPMwVQAA">
 <XPD:ATTR name="Name" type="string">login</XPD:ATTR>
 <XPD:REF name="ContainerState">vZOAr6esnk66P4CGBF+ZeAAA</XPD:REF>
@@ -2639,6 +2639,10 @@
 <XPD:ATTR name="#Incomings" type="integer">2</XPD:ATTR>
 <XPD:REF name="Incomings[0]">CNkMjkINz0mrue2sPDv5JQAA</XPD:REF>
 <XPD:REF name="Incomings[1]">TD/u3m0bQUuAyHoxJaYq1gAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Subvertices[6]" type="UMLSubmachineState" guid="qe851JNglkGO4LtKA+3VYwAA">
+<XPD:ATTR name="Name" type="string">SubmachineState1</XPD:ATTR>
+<XPD:REF name="ContainerState">vZOAr6esnk66P4CGBF+ZeAAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:ATTR name="#OwnedDiagrams" type="integer">1</XPD:ATTR>
@@ -2905,9 +2909,9 @@
 <XPD:REF name="Head">XBlC/Xxa20O2J0g6ipbHzQAA</XPD:REF>
 <XPD:REF name="Tail">mDR23wejq0GdKlQxJaq/IgAA</XPD:REF>
 <XPD:OBJ name="NameLabel" type="EdgeLabelView" guid="kux4DXcb2kK4e5Cb73r7ogAA">
-<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
-<XPD:ATTR name="Alpha" type="real">1.5707963267949</XPD:ATTR>
-<XPD:ATTR name="Distance" type="real">15</XPD:ATTR>
+<XPD:ATTR name="Alpha" type="real">-2.14453619634413</XPD:ATTR>
+<XPD:ATTR name="Distance" type="real">45.3541618817943</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">registration complete</XPD:ATTR>
 <XPD:REF name="Model">CNkMjkINz0mrue2sPDv5JQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="EdgeLabelView" guid="dXkF+ZPem0W8qxhb52YungAA">
@@ -2931,9 +2935,9 @@
 <XPD:REF name="Head">XBlC/Xxa20O2J0g6ipbHzQAA</XPD:REF>
 <XPD:REF name="Tail">q4ovFCHoaE6a9RZE9H9TAwAA</XPD:REF>
 <XPD:OBJ name="NameLabel" type="EdgeLabelView" guid="6ML+GgjFPEuQv7U0eZxHVQAA">
-<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
-<XPD:ATTR name="Alpha" type="real">1.5707963267949</XPD:ATTR>
-<XPD:ATTR name="Distance" type="real">15</XPD:ATTR>
+<XPD:ATTR name="Alpha" type="real">1.93137942326039</XPD:ATTR>
+<XPD:ATTR name="Distance" type="real">49.6487663492256</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">registration complete</XPD:ATTR>
 <XPD:REF name="Model">TD/u3m0bQUuAyHoxJaYq1gAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="EdgeLabelView" guid="VofY0VVQL0eoVRbTiNOp0gAA">
@@ -3028,6 +3032,7 @@
 <XPD:REF name="Target">ISlMDuKRLk+lQU4K+3D/yAAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Transitions[8]" type="UMLTransition" guid="CNkMjkINz0mrue2sPDv5JQAA">
+<XPD:ATTR name="Name" type="string">registration complete</XPD:ATTR>
 <XPD:REF name="StateMachine">ANEeSy5D10eiZPqyPy6diwAA</XPD:REF>
 <XPD:REF name="Source">ISlMDuKRLk+lQU4K+3D/yAAA</XPD:REF>
 <XPD:REF name="Target">vLETgUwOYkWH+aLzo2CaoQAA</XPD:REF>
@@ -3038,6 +3043,7 @@
 <XPD:REF name="Views[3]">5o+mkelr2Um91b9OumoV1gAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Transitions[9]" type="UMLTransition" guid="TD/u3m0bQUuAyHoxJaYq1gAA">
+<XPD:ATTR name="Name" type="string">registration complete</XPD:ATTR>
 <XPD:REF name="StateMachine">ANEeSy5D10eiZPqyPy6diwAA</XPD:REF>
 <XPD:REF name="Source">eTMokpN340mANpVUtdxzywAA</XPD:REF>
 <XPD:REF name="Target">vLETgUwOYkWH+aLzo2CaoQAA</XPD:REF>
